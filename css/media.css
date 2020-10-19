@@ -1,0 +1,287 @@
+@media (max-width: 1600px) {}
+
+@media (max-width: 1200px) {
+    .about__heading {
+        font-size: 28px;
+    }
+
+    .about__img {
+        width: 120%;
+    }
+
+    .about {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    .top-menu {
+        display: none;
+    }
+    header .mobile-menu {
+        display: block;
+        z-index: 5;
+        position: fixed;
+    }
+
+    .top-menu {
+        background: #3f4144;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: .7s;
+        position: fixed;
+        z-index: 4;
+    }
+    header .top-menu__item {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    .top-menu.show {
+        right: 0;
+        z-index: 2;
+    }
+
+    .hero__desc {
+        font-size: 18px;
+    }
+
+    .team__item {
+        margin-bottom: 40px;
+    }
+
+    .our-team {
+        padding-bottom: 110px;
+    }
+
+    .services__item {
+        margin-bottom: 40px;
+    }
+
+    .services {
+        padding-bottom: 60px;
+    }
+
+    .clients {
+        padding-bottom: 100px;
+    }
+
+    .clients__brands-list_inner {
+        width: 50%;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    .clients__brands-list {
+        flex-wrap: wrap;
+    }
+
+    .footer__copyright {
+        max-width: 291px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero__desc {
+        font-size: 14px;
+    }
+
+    .hero .go-down {}
+
+    .about {
+        padding: 60px 0;
+        margin-top: unset;
+    }
+
+    .about__img {
+        width: 100%;
+    }
+
+    .about__heading {
+        font-size: 22px;
+        margin: 6px 0 28px;
+    }
+
+    .about__sub-title {
+        font-size: 16px;
+    }
+
+    .about__info {
+        font-size: 14px;
+    }
+
+    .about__list {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .about__btn {
+        margin-top: 20px;
+    }
+
+    .our-team {
+        padding: 60px 0;
+    }
+
+    .section__title {
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+
+    .section__about {
+        font-size: 14px;
+    }
+
+    .work .filter {
+        align-items: end;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .testimonials .testimonial__comment {
+        font-size: 12px;
+    }
+
+    .testimonials {
+        padding: 60px 0;
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer__copyright {
+        font-size: 10px;
+        max-width: unset;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__title {
+        font-size: 24px;
+    }
+
+    .hero .go-down {
+        width: 40px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .hero__desc {
+        font-size: 12px;
+        padding: 0 30px;
+    }
+
+    .about {
+        margin-top: unset;
+        padding: 30px 0;
+    }
+
+    .about__info {
+        font-size: 12px;
+    }
+
+    .about__heading:before {
+        height: 2px;
+        bottom: -7px;
+    }
+
+    .about__btn {
+        width: 170px;
+        height: 35px;
+    }
+
+    .section__title {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+    .section__title:before,
+    .section__title:after {
+        height: 2px;
+        bottom: -10px;
+    }
+
+    .section__title:after {
+        bottom: -18px;
+    }
+
+    .section__about {
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+
+    .services {
+        padding: 40px 0;
+    }
+
+    .services__item_caption {
+        font-size: 20px;
+    }
+
+    .services__item_desc {
+        font-size: 12px;
+    }
+
+    .services__item_icon {
+        height: 100px;
+        width: 100px;
+    }
+
+    .clients__brands-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clients {
+        padding: 40px 0;
+    }
+
+    .work {
+        padding: 30px 0 30px;
+    }
+
+    .work .filter__type {
+        font-size: 16px;
+    }
+
+    .work .filter__list a {
+        font-size: 12px;
+    }
+
+    .work .filter__list a:not(:last-child) {
+        margin: 0 10px 0 0;
+    }
+
+    .work .filter__list a:not(:last-child)::before {
+        height: 10px;
+        right: -8px;
+    }
+
+    .testimonial__comment {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .testimonial__author {
+        font-size: 10px;
+    }
+
+    .testimonials .testimonial__author {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .testimonials {
+        padding: 40px 0;
+    }
+
+    .contactus {
+        padding: 30px 0;
+    }
+}
