@@ -111,8 +111,6 @@ header {
 .hero {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%), url('../images/bghero.jpg') no-repeat center/cover fixed;
 
-    &__content {}
-
     &__title {
         font-weight: 300;
         color: #999;
@@ -145,10 +143,6 @@ header {
 .about {
     margin-top: 100px;
 
-    &__img {}
-
-    &__content {}
-
     &__sub-title {
         text-transform: uppercase;
         font-size: 20px;
@@ -180,7 +174,6 @@ header {
     &__list {
         padding: 0;
 
-        &_item {}
     }
 
     &__btn {
@@ -208,8 +201,6 @@ header {
     padding: 100px 0 150px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%), url('../images/secondbg.jpg') no-repeat center/cover fixed;
     color: #fff;
-
-    &__row {}
 }
 
 .section {
@@ -268,7 +259,6 @@ header {
             margin: 15px 0 10px;
         }
 
-        &_position {}
 
         &_info {
             font-size: 14px;
@@ -442,7 +432,6 @@ header {
     color: #ffffff;
     text-align: center;
 
-    &__content {}
 
     .testimonial {
         &__comment {
@@ -483,17 +472,13 @@ header {
             float: left;
             font-size: 13px;
             color: #555;
+            margin-top: 10px;
         }
 
         &__messagebox {
             margin-top: 10px;
         }
 
-        &_btn {}
-
-        &_info {
-            margin-top: 10px;
-        }
 
         &_message {
             width: 100%;
