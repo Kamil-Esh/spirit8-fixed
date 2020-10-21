@@ -43,7 +43,7 @@ header .top-menu__item:before, header .top-menu__item:after {
   position: absolute;
   width: 60%;
   height: 3px;
-  background-color: #292929;
+  background-color: #668588;
   bottom: -21px;
   right: -10%;
   -webkit-transform: scale(0);

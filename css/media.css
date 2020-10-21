@@ -46,7 +46,21 @@
         right: 0;
         z-index: 2;
     }
-
+    header .top-menu__item:after {
+        content: '';
+        position: absolute;
+        width: 60%;
+        height: 3px;
+        background-color:  #fcac45;
+        bottom: 7px;
+        right: -10%;
+        transform: scale(0);
+        transition: .6s;
+    }
+    header .top-menu__item::before {
+        background-color: #668588;
+        bottom: 7px;
+    }
     .hero__desc {
         font-size: 18px;
     }
