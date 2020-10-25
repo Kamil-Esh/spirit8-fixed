@@ -24,6 +24,7 @@ header {
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   color: #ffffff;
+  position: absolute;
 }
 
 header .logo {
@@ -111,8 +112,8 @@ header .mobile-menu span:after {
 }
 
 .hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.4))), url("../images/bghero.jpg") no-repeat center/cover fixed;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%), url("../images/bghero.jpg") no-repeat center/cover fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.4))), url("../images/bghero-replace.jpg") no-repeat center/cover fixed;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%), url("../images/bghero-replace.jpg") no-repeat center/cover fixed;
 }
 
 .hero__title {
@@ -213,8 +214,8 @@ header .mobile-menu span:after {
 
 .our-team {
   padding: 100px 0 150px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.4))), url("../images/secondbg.jpg") no-repeat center/cover fixed;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%), url("../images/secondbg.jpg") no-repeat center/cover fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.4))), url("../images/phone.jpg") no-repeat center/cover fixed;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%), url("../images/phone.jpg") no-repeat center/cover fixed;
   color: #fff;
 }
 
@@ -325,8 +326,8 @@ header .mobile-menu span:after {
 }
 
 .clients {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.4))), url("../images/thirdbg.jpg") no-repeat center/cover fixed;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%), url("../images/thirdbg.jpg") no-repeat center/cover fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.4))), url("../images/laptopimg.jpg") no-repeat center/cover fixed;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%), url("../images/laptopimg.jpg") no-repeat center/cover fixed;
   color: #fff;
   padding: 100px 0 200px;
 }
@@ -461,8 +462,8 @@ header .mobile-menu span:after {
 
 .testimonials {
   padding: 100px 0 170px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.4))), url("../images/fourhbg.jpg") no-repeat center/cover fixed;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%), url("../images/fourhbg.jpg") no-repeat center/cover fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.4))), url("../images/laptop2.jpeg") no-repeat center/cover fixed;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%), url("../images/laptop2.jpeg") no-repeat center/cover fixed;
   color: #ffffff;
   text-align: center;
 }
@@ -501,13 +502,10 @@ header .mobile-menu span:after {
   float: left;
   font-size: 13px;
   color: #555;
-}
-
-.contactus__form__messagebox {
   margin-top: 10px;
 }
 
-.contactus__form_info {
+.contactus__form__messagebox {
   margin-top: 10px;
 }
 
